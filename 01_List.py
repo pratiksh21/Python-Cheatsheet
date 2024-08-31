@@ -153,6 +153,15 @@ while i < len(my_list):
 
 
 
+--------------------------------->>>>>>>>>>>>>>>>>>>>>>>>> you can create your own sorting functions 
+
+def my_func(n):
+    return abs(n-0)
+
+
+list.sort(key=my_func)
+print(list)
+
 
 
 
